@@ -69,3 +69,41 @@
 .mt-20 {
   margin-top: 20px;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+}
+
+.input {
+  border-style: none;
+  border-radius: 3px;
+  padding: 16px;
+  font-size: 16px;
+  resize: none;
+  transition: padding 0.9s;
+}
+
+.input:hover {
+  padding-left: 6px;
+}
+
+.input:focus {
+  border-color: #2196f3;
+}
+
+.button-primary {
+  padding: 16px;
+  border: none;
+  background-color: #2196f3;
+  font-size: 16px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
