@@ -9,5 +9,29 @@
 }
 
 .bg-color {
-    background-color: azure;
+    background-color: lightgray;
+}
+
+.logo {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 12px 10%;
+    background-color: white;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 8px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: 600;
 }
