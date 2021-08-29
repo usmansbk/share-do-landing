@@ -119,7 +119,7 @@
 }
 
 .screenshot-small {
-  width: 60%;
+  width: 100%;
 }
 
 .footer {
@@ -129,5 +129,9 @@
 @media screen and (min-width: 992px) {
   .content {
     flex-direction: row;
+  }
+
+  .screenshot-small {
+    width: 60%;
   }
 }
