@@ -54,3 +54,14 @@
     font-size: 45px;
     font-weight: 600;
 }
+
+.button {
+    margin-left: -8px;
+    height: 56px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
