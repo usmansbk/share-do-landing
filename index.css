@@ -10,7 +10,7 @@
 }
 
 .bg-color {
-    background-color: #f5f5f5;
+    background-color: #dfe6e9;
 }
 
 .logo {
@@ -33,7 +33,7 @@
 
 .brand {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .nav {
@@ -43,4 +43,5 @@
 .nav-link {
     text-decoration: none;
     font-weight: 500;
+    color: #636e72;
 }
