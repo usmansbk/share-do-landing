@@ -3,3 +3,11 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+.color-primary {
+    color: #2196f3;
+}
+
+.bg-color {
+    background-color: azure;
+}
