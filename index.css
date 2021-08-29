@@ -45,3 +45,12 @@
     font-weight: 500;
     color: #636e72;
 }
+
+.container {
+    padding: 4% 10%;
+}
+
+.header-1 {
+    font-size: 45px;
+    font-weight: 600;
+}
