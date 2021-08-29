@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #121212;
+  font-family: "Poppins", sans-serif;
+}
+
+.color-primary {
+  color: #2196f3;
+}
+
+.bg-color {
+  background-color: #dfe6e9;
+}
+
+.logo {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 12px 10%;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #636e72;
+}
+
+.container {
+  padding: 4% 10%;
+}
+
+.header-1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.download-button {
+  height: 80px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+}
+
+.input {
+  border-style: none;
+  border-radius: 3px;
+  padding: 16px;
+  font-size: 16px;
+  resize: none;
+  transition: padding 0.9s;
+}
+
+.input:hover {
+  padding-left: 6px;
+}
+
+.input:focus {
+  border-color: #2196f3;
+}
+
+.button-primary {
+  padding: 16px;
+  border: none;
+  background-color: #2196f3;
+  font-size: 16px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.screenshot {
+  width: 100%;
+}
+
+.screenshot-small {
+  width: 100%;
+}
+
+.footer {
+  padding: 1% 10%;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .screenshot-small {
+    width: 60%;
+  }
+}

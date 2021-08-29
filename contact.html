@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us | Share.do</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body class="bg-color">
+    <header class="header">
+      <div class="nav-brand">
+        <a href="/">
+          <img src="/imgs/logo.png" alt="" class="logo" />
+        </a>
+        <span class="brand color-primary">Share.do</span>
+      </div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="/contact.html" class="nav-link">Contact us</a>
+        </li>
+      </ul>
+    </header>
+    <main class="container">
+      <section class="headline">
+        <h1 class="header-1">Help us grow</h1>
+        <p>Send us your feedback and suggestions.</p>
+        <form class="contact-form" action="https://formspree.io/f/mnqllqyy" method="POST">
+          <input class="input" id="name" name="name" placeholder="Your name" />
+          <input
+            class="input"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Your email"
+          />
+          <textarea
+            class="input"
+            id="message"
+            name="message"
+            placeholder="Write your message"
+          ></textarea>
+          <div>
+            <button type="submit" class="button-primary">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
