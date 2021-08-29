@@ -55,9 +55,8 @@
   font-weight: 600;
 }
 
-.button {
-  margin-left: -8px;
-  height: 56px;
+.download-button {
+  height: 80px;
 }
 
 .headline {
@@ -106,4 +105,21 @@
 
 .button-primary:hover {
   opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.screenshot {
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .content {
+    flex-direction: row;
+  }
 }
